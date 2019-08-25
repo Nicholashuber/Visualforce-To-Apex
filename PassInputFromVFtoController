@@ -1,0 +1,8 @@
+Public with sharing class PassInputFromVFtoController {
+  Public string myInputQueryString{get;set;}
+  Public string myoutputString{get;set;}
+   
+  Public void myInputQuery(){
+  myoutputString = myInputQueryString ;
+  }
+}
